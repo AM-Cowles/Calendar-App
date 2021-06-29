@@ -29,10 +29,10 @@ function displayCurrentDate(currentTime) {
     .textContent = currentTime.format('dddd, MMMM Do');
 }
 
-  /*** functions for displaying all timeblock rows ***/
+// Functions for displaying timeblock rows
 function displayTimeblockRows(currentTime) {
     const currentHour = currentTime.hour();
-    //working hours are 9-5 or 9-17
+    // Working hours from 9-5 or 9-17
     for (let i = 9; i <= 17; i ++) {
     const timeblock = createTimeblockRow(i);
     const hourCol = createCol(createHourDiv(i), 1);
@@ -96,7 +96,7 @@ function appendTimeblockColumns(timeblockRow, hourCol, textAreaCol, saveBtnCol) 
     }
 }
 
-  /*** functions for saving to local storage ***/
+// Functions for saving to local storage
 function containerClicked(event, timeblockList) {
     if (isSaveButton(event)) {
     const timeblockHour = getTimeblockHour(event);
