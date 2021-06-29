@@ -18,4 +18,4 @@ SO THAT I can manage my time effectively
 
 The following is a screenshot of the fully functional calendar application.
 
-![Calendar App Screenshot] (Assets/calendar-app.png)
+![Calendar App Screenshot](Assets/calendar-app.png)
