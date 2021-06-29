@@ -4,7 +4,7 @@ The purpose of this assignment was to create a simple calendar application with 
 
 ## Deployed Application
 
-https://am-cowles.github.io/Calendar-App/
+https://am-cowles.github.io/Calendar-App/Develop/index.html
 
 ## User Story
 
