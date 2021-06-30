@@ -1,7 +1,7 @@
 class TimeblockObj {
     constructor(hour, todo) {
-    this.hour = hour;
-    this.todo = todo;
+        this.hour = hour;
+        this.todo = todo;
     }
 }
 
@@ -32,7 +32,7 @@ function displayCurrentDate(currentTime) {
 // Functions for displaying timeblock rows
 function displayTimeblockRows(currentTime) {
     const currentHour = currentTime.hour();
-    // Working hours from 9-5 or 9-17
+// Working hours from 9-5 or 9-17
     for (let i = 9; i <= 17; i ++) {
     const timeblock = createTimeblockRow(i);
     const hourCol = createCol(createHourDiv(i), 1);
